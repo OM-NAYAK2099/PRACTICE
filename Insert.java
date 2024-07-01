@@ -10,6 +10,6 @@ public class Insert{
         int num=sc.nextInt();
         StringBuilder string=new StringBuilder(str);
         string.setCharAt(num, ch);
-        System.out.println(string);
+        System.out.println(string); 
     }
 }

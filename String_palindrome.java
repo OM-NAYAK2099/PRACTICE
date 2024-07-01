@@ -10,7 +10,7 @@ public class String_palindrome{
         }return true;
     }
     public static void main(String []args){
-        Scanner s = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the String");
 		String str=sc.nextLine();
         if(Ispalindrome(str,0,str.length()-1)){
